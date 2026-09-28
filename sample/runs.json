@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "cap": 2,
+  "bad_task_code": "E_BAD_TASK",
+  "dup_code": "E_DUP_RUN",
+  "no_run_code": "E_NOT_RUNNING",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "running": [], "rejected": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "start", "task": 1 },
+    { "id": 2, "kind": "start", "task": 2 },
+    { "id": 3, "kind": "start", "task": 3 },
+    { "id": 4, "kind": "stop", "task": 1 },
+    { "id": 5, "kind": "start", "task": 3 }
+  ]
+}
